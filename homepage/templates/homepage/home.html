@@ -34,11 +34,12 @@
 								<a href="{% url 'party' party.id %}">
 									<span class="name">
 										{% if party.is_online %}
-											<img src="/static/images/icons/computer.png" alt="[Online]" title="Online" />
+											<img src="/static/images/icons/computer.png" alt="[Online]" title="Online" />&nbsp;{{ party.name }}
 										{% elif party.country_code %}
-											<img src="/static/images/icons/flags/{{ party.country_code|lower }}.png" alt="[{{ party.country_code }}]" title="{{ party.location }}" />
+											<img src="/static/images/icons/flags/{{ party.country_code|lower }}.png" alt="[{{ party.country_code }}]" title="{{ party.location }}" />&nbsp;{{ party.name }}
+										{% else %}
+											{{ party.name }}
 										{% endif %}
-										{{ party.name }}
 									</span>
 									{% date_range party.start_date party.end_date %}
 								</a>
