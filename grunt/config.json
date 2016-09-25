@@ -1,0 +1,9 @@
+{
+  "dir": {
+    "tmp":      ".tmp",
+    "src":      "src",
+    "svg":      "src/svg",
+    "less":     "src/less",
+    "static":   "demoscene/static"
+  }
+}

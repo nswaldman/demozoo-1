@@ -1,0 +1,28 @@
+{
+  "name": "demozoo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/demozoo/demozoo.git"
+  },
+  "version": "1.0.0",
+  "description": "The best demoscene site in the world",
+  "main": "Gruntfile.js",
+  "author": "Demozoo staff and contributors",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.1.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-favicons": "^0.8.0",
+    "grunt-modernizr": "^1.0.0",
+    "grunt-svgmin": "^4.0.0",
+    "grunt-svgstore": "^1.0.0",
+    "less-plugin-autoprefix": "^1.4.2",
+    "less-plugin-glob": "^1.1.0",
+    "load-grunt-tasks": "^3.2.0",
+    "normalize-opentype.css": "^0.2.4",
+    "normalize.css": "^4.2.0",
+    "svgmin": "^0.1.0"
+  }
+}
