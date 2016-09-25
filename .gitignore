@@ -7,5 +7,7 @@
 /static
 /media
 /.vagrant
+/.coverage
+/coverage_html_report
 .DS_Store
 /.idea
